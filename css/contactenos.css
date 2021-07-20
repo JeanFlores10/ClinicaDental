@@ -1,0 +1,87 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#fondo4{
+    background: url('../img/slider01.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 550px;
+}
+
+
+.contenedor4 form{
+    position: relative;
+    display: block;
+    width: 450px;
+    color: #00408c;
+    background: rgba(77, 208, 199,0.7);
+    border-radius: 10px;
+    text-transform: uppercase;
+    padding: 20px;
+    float: right;
+    margin-right:50px;
+    margin-top: 25px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.contenedor4 h2{
+    text-align: center;
+    margin: 0px;
+    font-size: 30px;
+    margin-bottom: 5px;
+    color: white;
+}
+.contenedor4 label{
+    font-weight: bold;
+}
+
+.contenedor4 input, .contenedor4 textarea, .contenedor label{
+    width: 90%;
+    padding: 7px;
+    box-sizing: border-box;
+    display: block;
+    margin: 0px auto;
+}
+.contenedor4 textarea{
+    min-height: 80px;
+    max-height: 100px;
+    max-width: 90%;
+    min-width: 90%;
+}
+
+.boton4{
+    background:#00408c ;
+    border: 0px;
+    margin-top: 10px !important;
+    cursor: pointer;
+    padding: 10px !important;
+    color: white;
+    font-size: 16px;
+    transition: all 300ms ease-in;
+}
+.boton4:hover{
+    background: white;
+    color: #00408c;
+    transition: all 300ms ease-in;
+}
+@media(max-width:546px){
+    .contenedor4 form{
+        width: 400px;
+    }
+}
+@media (max-width:480px) {
+    
+    .contenedor4 form{
+        width: 90%;
+        margin-top:10px;
+        margin-right: 0px;
+        margin-left: 20px;
+        float: left;
+    }
+}

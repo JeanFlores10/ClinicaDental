@@ -1,0 +1,637 @@
+@media (max-width:1289px){
+    
+
+    #fondo1::before{
+        height: 86.3%;
+    }
+    #footer{
+        width: 100%;
+    }
+    #footer .wrap > div{
+        width: 28%;
+    }
+}
+@media (max-width:1166px){
+    .card-caso{
+        width: 300px;
+    }
+}
+@media (max-width:1131px){
+    #content-logo{
+        width: 90%;
+    }
+    #content{
+        width: 90%;
+    }
+    .card-body2 p{
+        font-size: 14px;
+    }
+    .contenedor2{
+        width: 90%;
+    }
+    #fondo1::before{
+        height: 79.3%;
+    }
+}
+@media (max-width:1049px){
+    .casosclinicos{
+        display: none;
+    }
+    .bxcasosclinicos{
+        display: flex;
+        margin: 0px auto;
+    }
+    #Casos .bx-wrapper{
+        display: flex;
+        max-width: 100% !important;
+        justify-content: center;
+    }
+    #Casos .bx-viewport{
+        width: 80% !important;
+        margin-left: -50px;
+    }
+    .bxcasosclinicos .card-caso{
+        height: 461px;
+        margin: 50px;
+    }
+    #casos > img{
+        height: 567px;
+    }
+    #Casos{
+        height: 570px;
+    }
+
+    .contenedor-texto{
+        width: 45%;
+    }
+    .card-caso img{
+        width: 93%;
+    }
+
+
+}
+@media (max-width:1003px){
+    #content-logo{
+        width: 100%;
+    }
+    #content{
+        width: 100%;
+    }
+
+    .telf a, .ubic a, .email a{
+
+        padding:10px;
+        padding-top: 18px;
+
+    }
+    #footer{
+        height: 600px;
+    }
+    #footer .wrap > div{
+        width: 44%;
+    }
+
+    .pages{
+        height: 550px;
+    }
+    .contenedor3{
+        height: 90%;
+    }
+}
+@media (max-width:905px){
+    #content-logo{
+        width: 100%;
+    }
+
+    #content .text-ubi{
+        margin: 0px auto;
+    }
+    .img-head{
+        margin: 0px auto;
+        display: flex;
+    }
+    .contenedor-flex{
+        justify-content: center;
+    }
+    .contenedor-texto{
+
+        width: 55%;
+    }
+    .contenedor1{
+        height: 75%;
+    }
+
+    .fondo-clinica,.fondo-bioseguridad{
+        height: 70vh;
+    }
+
+}
+@media (max-width: 994px){
+    .infraes{
+        display: none;
+    }
+    #Infraestructura .bx-wrapper{
+        display: block;
+    }
+    .infraes11{
+        display: block;
+        height: 50vh;
+    }
+    #Infraestructura{
+        height: 450px;
+    }
+    #Infraeustructura > img{
+        height: 450px;
+    }
+    #Infraestructura .bx-wrapper{
+        height: auto;
+    }
+    #Infraestructura .bx-viewport{
+        height: 50vh;
+    }
+    .card-infra{
+        height: 65vh;
+    }
+    .card-infra img{
+        height: 84%;
+    }
+
+}
+@media (max-width:856px){
+    .contenedor2{
+        width: 100%;
+    }
+
+}
+@media (max-width:825px){
+    #fondo1{
+        min-height: 400px;
+    }
+    #fondo1::before{
+        min-height: 400px;
+    }
+
+    #fondo3{
+        min-height: 400px;
+    }
+    #fondo3::before{
+        min-height: 400px;
+    }
+    .contenedor1{
+        height: 80%;
+    }
+}
+@media (max-width:799px){
+
+    #footer{
+        height: 1000px;
+    }
+    #footer .wrap > div{
+        width: 90%;
+    }
+
+    .res{
+        display: none;
+    }
+    .contenedor-texto{
+        margin-left: auto;
+        width: 70%;
+    }
+    .contenedor1, .contenedor3{
+        height: 70%;
+        font-size: 16px;
+    }
+
+    .fondo-bioseguridad{
+        background-position: right;
+    }
+
+
+
+    .pages{
+        height: 480px;
+    }
+    
+    .tratami{
+        display: none;
+        margin-top: 0px;
+    }
+    
+    .bxtratami{
+        display: block !important;
+    }
+
+    #Tratamientos .bx-wrapper{
+        display: block;
+        max-width: 80% !important;
+        margin: auto;
+    }
+    #Tratamientos .bx-viewport{
+        width: 80% !important;
+        margin: auto;
+        margin-top: 80px;
+    }
+    #Tratamientos .card2{
+        width: 100% !important;
+        margin: 0px;
+    }
+    #Tratamientos .card-body2{
+        min-height: 195px;
+        padding-bottom: 0px;
+    }
+    #Contactenos{
+        height: 580px !important;
+    }
+}
+@media (max-width:772px){
+    .contenedor1{
+        height: 75%;
+    }
+}
+@media (max-width:768px){
+    .icon-menu{
+        display: block;
+    }
+    #menu{
+        position: absolute;
+        width: 90%;
+        margin-left: -110%;
+        transition: all 300ms ease;
+        z-index: 999999;
+    }
+    #menu ul li{
+        padding-left: 0px;
+        padding-right: 0px;
+        width: 100%;
+    }
+    #btn-menu:checked ~ #menu{
+        margin: 0% !important;
+
+    }
+    #slider img{
+        height: 350px;
+    }
+    #fondo1::before{
+        height: 71.3%;
+    }
+
+    #Casos .bx-wrapper{
+        max-width: 100% !important;
+    }
+    .bxcasosclinicos .card-caso{
+        height: 491px;
+        margin: 0px;
+        margin-top: 20px;
+        margin-right: 20px;
+    }
+    #Casos .bx-viewport{
+        width: 70% !important;
+        margin-left: 0px;
+    }
+    .card-caso img{
+        height: 89%;
+        width: 100%;
+    }
+    .fondo-clinica, .fondo-bioseguridad{
+        height: 65vh;
+    }
+
+    .card-infra img{
+        width: 100%;
+        height: 85%;
+    }
+    #casos > img{
+        display: none;
+    }
+
+}
+@media (max-width:750px){
+
+    .contenedor4{
+        justify-content: center;
+        margin-right: 0px;
+    }
+}
+@media (max-width:713px){
+    #contactos{
+        display: block;
+    }
+
+    #footer{
+        height: 1350px;
+    }
+    .fondo-clinica, .fondo-bioseguridad{
+        height: 65vh;
+    }
+    .infoheader{
+        display: none;
+    }
+    .infofooter{
+        display: block;
+        color: black;
+    }
+
+    #content-logo img{
+        height: 115px;
+    }
+    .infofooter > div{
+        width: 100%;
+        margin-bottom: 20px;
+        text-align: left;
+    }
+    .infofooter > div > a{
+        font-size: 35px;
+    }
+    .infofooter h4{
+    text-transform: uppercase;
+    font-size: 17px;
+    }
+    .infofooter > div > div{
+        
+        margin-left: 100px;
+    }
+    .infofooter .icon{
+        display: block;
+        padding: 0px;
+        margin: 0px;
+        width: 80px;
+        text-align: center;
+        padding-top: 10px;
+    }
+    .infofooter .ubic{
+        margin-top: 20px;
+    }
+    .infofooter p{
+        font-size: 14px;
+        padding-top: 5px;
+    }
+    #infraestructura > img{
+        display: none !important;
+    }
+}
+@media (max-width:699px){
+    #casos > img{
+        height: 427px;
+    }
+    #Casos{
+        height: 390px;
+    }
+    .bxcasosclinicos .card-caso{
+        height: 380px;
+    }
+    #Casos .bx-viewport {
+        width: 85% !important;
+    }
+    .bxcasosclinicos .card-caso{
+        height: 360px;
+        
+    }
+}
+@media (max-width:650px){
+    .telf a, .ubic a, .email a{
+
+        padding:10px;
+        padding-top: 18px;
+    }
+    #fondo1{
+        min-height: 300px;
+    }
+    #fondo1::before{
+        min-height: 300px;
+    }
+
+    #fondo3{
+        min-height: 300px;
+    }
+    #fondo3::before{
+        min-height: 300px;
+    }
+    
+}
+@media (max-width:639px){
+    .infoheader{
+        flex-wrap: initial;
+    }
+    
+}
+@media (max-width:579px){
+    .contenedor1{
+        font-size: 15px;
+        border-radius: 0px;
+        background-color: #00408c;
+    }
+    .contenedor-texto{
+        width: 100%;
+        margin: 0px;
+    }
+    
+    .contenido{
+        height: 500px;
+    }
+    .contenido1{
+        height: 440px;
+    }
+    .fondo-clinica, .fondo-bioseguridad{
+        height: 40vh;
+    }
+    .card-clinica{
+        margin-top: 250px !important;
+    }
+
+}
+@media (max-width:536px){
+
+    #Tratamientos .bx-wrapper{
+        max-width: 90% !important;
+    }
+    #Tratamientos .bx-viewport{
+        width: 90% !important;
+    }
+
+
+}
+@media (max-width:520px){
+    #content-logo .text-ubi, #content-logo .text-telf, #content-logo .text-email{
+        line-height: auto;
+        font-size: 11px;
+    }
+
+    #menu ul li{
+        width: 100%;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    #slider img{
+        width: 100%;
+        height: 250px;
+    }
+
+    #content{
+        width: 100%;
+        min-height: 140px;
+        max-height: 500px;
+        padding-top: 0px;
+        text-align: center;
+    }
+    #content .text-ubi{
+        padding-top: 0px;
+        display: block;
+        float: none;
+        line-height: auto;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    footer{
+        width: 100%;
+        height: 50px;
+        background-color: #204d88;
+        margin-top: 0px;
+    }
+    
+    #fondo3{
+        min-height: 250px;
+    }
+    #fondo3::before{
+        min-height: 250px;
+    }
+
+    #fondo1::before{
+        height: 64.1%;
+    }
+    
+}
+@media (max-width:480px) {
+    .infoheader{
+        flex-wrap: wrap;
+    }
+    .contenedor4 form{
+        width: 90%;
+    }
+    #Bioseguridad{
+        height: 310px;
+    }
+
+    .contenedor3{
+        height: 60%;
+        margin-top: 0px;
+        font-size: 13px;
+    }
+
+    #odontologia img{
+        height: 407px;
+    }
+
+    .fondo-clinica, .fondo-bioseguridad{
+        background-size: cover;
+    }
+
+    #Odontologia{
+        background-size: cover;
+        height: 350px;
+    }
+
+    #footer ul{
+        font-size: 20px;
+    }
+    #Tratamientos .contenedor-flex{
+
+        min-height: 0px;
+    }
+    #Tratamientos .wrapper{
+        width: 90% !important;
+    }
+    #Tratamientos{
+        height: 550px;
+    }
+    #Infraestructura .bx-wrapper{
+        max-width: 100% !important;
+        height: 60vh;
+    }
+    #Infraestructura .bx-viewport{
+        height: 300px !important;
+    }
+
+    .card-infra{
+        width: auto;
+        height: 100%;
+    }
+
+
+    #Infraestructura{
+        height: 300px;
+    }
+    
+    .fondo-bioseguridad{
+        background-position: right !important;
+    }
+
+    .card-clinica{
+        margin-top: 240px !important;
+    }
+    .contenido{
+        height: 530px;
+    }
+    .contenido1{
+        height: 470px;
+    }
+
+}
+@media (max-width:434px){
+    .contenido{
+        height: 550px;
+    }
+    .contenido1{
+        height: 470px;
+    }
+
+}
+@media (max-width:422px){
+    .contenido{
+        height: 570px;
+    }
+    .contenido1{
+        height: 470px;
+    }
+}
+@media (max-width:401px){
+    .contenido{
+        height: 580px;
+    }
+    .contenido1{
+        height: 470px;
+    }
+}
+@media (max-width:371px){
+    .contenido{
+        height: 595px;
+    }
+    .contenido1{
+        height: 500px;
+    }
+}
+@media (max-width:361px){
+    .contenido{
+        height: 610px;
+    }
+    .contenido1{
+        height: 520px;
+    }
+
+}
+@media (max-width:333px){
+    .contenido{
+        height: 650px;
+    }
+    .contenido1{
+        height: 530px;
+    }
+}
+@media (max-width:324px){
+    .contenido{
+        height: 680px;
+    }
+    .contenido1{
+        height: 550px;
+    }
+}

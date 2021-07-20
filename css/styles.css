@@ -1,0 +1,702 @@
+@font-face{
+    font-family: "BebasNeue";
+    src:url('fonts/BebasNeue.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: "WebSymbolsRegular";
+    src: url('fonts/websymbols-regular-webfont.eot');
+    src: url('fonts/websymbols-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/websymbols-regular-webfont.woff') format('woff'),
+         url('fonts/websymbols-regular-webfont.ttf') format('truetype'),
+         url('fonts/websymbols-regular-webfont.svg#WebSymbolsRegular') format('svg' );
+    font-weight: normal;
+    font-style: normal;
+}
+.icon{
+    font-family: "WebSymbolsRegular";
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+h1{
+    text-align: center;
+    font-size: 80px;
+}
+
+#global{
+        width: 90%;
+        margin: 0px auto;
+}
+
+#content-logo{
+        margin: 0px auto;
+        padding-top: 2%;
+        color: #204d88;
+        font-weight: bold;
+        box-sizing: border-box;
+        display: flex;
+        flex-wrap: wrap;
+}
+.infoheader{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px auto;
+}
+#content-logo img{
+        width: 250px;
+}
+.img-head{
+    margin: 0px auto;
+}
+
+.telf a, .ubic a, .email a{
+    font-size: 25px;
+    float: left;
+    padding:18px;
+    color: black;
+}
+#content-logo .text-ubi, #content-logo .text-telf, #content-logo .text-email{
+    line-height: auto;
+    padding-top: 15px;  
+    font-size: 12px;
+}
+
+#slider img{
+    width: 100% !important;
+    height: 500px;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+
+#btn-menu{
+display: none;
+}
+.label{
+    display: block;
+    width: 100%;
+    background: #00408c;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+.label:hover{
+    background: #07c2b7;
+}
+.icon-menu{
+    display:none;
+    width: 46px;
+    height: 40px;
+    transition: all 300ms ease;
+    margin-left: 15px;
+    cursor: pointer;
+    margin: 0px auto;
+}
+.icon-menu:hover{
+    width: 48px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+
+
+
+#menu{
+    font-family: Helvetica, Arial;
+    background: #00408c;
+    width: 100%;
+    text-transform: uppercase;
+    text-align: center;
+    }
+    #menu ul{
+        line-height: 46px;
+        list-style: none;
+        transition: all 300ms;
+        color: white;
+        font-size: 14px;
+    }
+    #menu ul li{
+        height: 46px;
+        display: inline-block;
+        padding-left: 10px;
+        padding-right: 10px;
+        transition: all 300ms;
+    }
+    #menu ul li:hover{
+        background: #07c2b7;
+        cursor: pointer;
+        transition: all 300ms;
+    }
+    #menu a{
+        display: block;
+        color: white;
+        text-decoration: none;
+    }
+
+
+/*CLINICA*/
+.pages{
+    height: 580px;
+}
+#slider .bx-wrapper{
+    max-width: 100% !important;
+}
+
+#fondo1 img,#fondo2 img,#fondo3 img,#fondo4 img{
+    width: 90%;
+    height: 577px;
+    position: absolute;
+    z-index: -1;
+}
+#fondo1::before{
+    content: "";
+    width: 100%;
+    height: 88.3%;
+    position: absolute;
+    background: linear-gradient(-90deg,rgb(250, 250, 250) 0%, rgba(255, 255, 255, 0)35%);  
+}
+.contenedor1{
+    color: white;
+    background: rgba(7, 194, 182, 0.5);
+    border-radius: 10px;
+    text-align: justify;
+    padding: 20px;
+    cursor: pointer;
+    transition: all 300ms ease;
+    box-shadow: 0px 0px 4px rgb(95, 95, 95), 0px 0px 3px #ccc inset;
+    font-family: 'BebasNeue';
+    font-family: 14px;
+}
+.contenedor1:hover{
+    box-shadow: 0px 0px 10px #cccccc;
+    transition: all 300ms ease;
+}
+.contenedor-flex{
+    display: flex;
+    justify-content: right;
+
+}
+
+.card-clinica img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px rgb(95, 95, 95), 0px 0px 3px #ccc inset;
+    transition: all 300ms ease;
+    cursor: pointer;
+}
+.card-clinica img:hover{
+    box-shadow: 0px 0px 10px #cccccc;
+    transition: all 300ms ease;
+}
+.contenedor-texto{
+    width: 35%;
+    margin:auto;
+    margin-left: 50px;
+}
+.fondo-clinica{
+    background-image: url('../img/slider04.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 90vh;
+    background-position: center;
+}
+
+/*ODONTOLOGIA*/
+
+#Odontologia{
+    background-image: url('../img/slider02.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+
+
+/*TRATAMIENTOS*/
+
+#Tratamientos{
+    height:600px;
+    background-image: url('../img/tratamientos.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+#Tratamientos .contenedor-flex{
+    display: flex;
+    align-items: center;
+    min-height: 85vh;
+    width: 100%;
+    justify-content: center;
+}
+
+
+#Tratamientos .wrapper .carousel{
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 30px;
+}
+.carousel .card{
+    height: 450px;
+    text-align:center;
+    color: #fff;
+    font-size: 15px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0px 4 15px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+.carousel .card{
+    background: rgba(255, 255, 255, 0.7);
+}
+#Tratamientos .wrapper{
+width: 100% !important;
+display: flex;
+justify-content: center;
+
+}
+
+.owl-dots{
+    text-align: center;
+}
+.owl-dot{
+    height: 15px;
+    width: 45px;
+    border-radius: 25px;
+    cursor: pointer;
+    outline: none;
+    border: 2px solid #0072bc !important;
+}
+.owl-dot:hover, .owl-dot.active{
+    background: #0072bc !important;
+}
+/*--------------------------*/
+.card-header{
+    margin-bottom: 10px;
+}
+.card-body{
+    
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.card-body h4{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #00408c;
+    padding-bottom: 5px;
+}
+.card-body p{
+    color: rgb(58, 58, 58);
+    text-align: justify;
+    
+}
+.card-header img{
+    height: 250px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+/*BIOSEGURIDAD*/
+
+
+.fondo-bioseguridad{
+    background-image: url('../img/slider12.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 90vh;
+    background-position: right;
+}
+
+
+
+
+
+/*CONTACTENOS*/
+#Contactenos{
+    background-image: url('../img/mapa.png');
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.contenedor4{
+    display: flex;
+    justify-content: right;
+    margin-right: 100px;
+    float:right;
+}
+
+.contenedor4 form{
+    position: relative;
+    display: block;
+    width: 450px;
+    color: #00408c;
+    background: rgba(7, 194, 182, 0.8);
+    text-transform: uppercase;
+    padding: 25px;
+    margin-top: 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: all 300ms ease;
+    opacity: 0.8;
+}
+.contenedor4 form:hover{
+    box-shadow: 0px 0px 10px #cccccc;
+    transition: all 300ms ease;
+    opacity: 1;
+}
+.contenedor4 h2{
+    text-align: center;
+    margin: 0px;
+    font-size: 30px;
+    margin-bottom: 5px;
+    color: white;
+}
+.contenedor4 label{
+    font-weight: bold;
+}
+.contenedor4 input, .contenedor4 textarea, .contenedor4 label{
+    width: 90%;
+    padding: 7px;
+    box-sizing: border-box;
+    display: block;
+    margin: 0px auto;
+}
+.contenedor4 textarea{
+    min-height: 80px;
+    max-height: 100px;
+    max-width: 90%;
+    min-width: 90%;
+}
+.boton4{
+    background:#00408c ;
+    border: 0px;
+    margin-top: 10px !important;
+    cursor: pointer;
+    padding: 10px !important;
+    color: white;
+    font-size: 16px;
+    transition: all 300ms ease-in;
+}
+.boton4:hover{
+    background: white;
+    color: #00408c;
+    transition: all 300ms ease-in;
+}
+
+.subtitle{
+    width: 100%; display: block; padding: 15px; text-align: center; box-sizing: border-box; font-size: 25px; font-family: 'Lucida Sans'; color: rgb(255, 255, 255); background-color: rgba(0, 63, 140, 1);
+    cursor: pointer;transition: all 300ms ease;
+
+}
+.subtitle:hover{
+    transition: all 300ms ease;
+    background-color: rgba(0, 63, 140, 0.9);
+    box-shadow: 0px 5px 5px #cccccc;
+    font-size: 23px;
+}
+
+/*CASOS CLINICOS*/
+#Casos{
+    height: 720px;
+}
+#casos > img{
+    width: 90%;
+    height: 720px;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.3 !important;
+}
+
+.casosclinicos{
+    width: 100%;
+    height: 680px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card-caso{
+    margin: 0 auto;
+    margin-top: 35px;
+    width: 350px;
+    height: 300px;
+    background-color: rgba(242, 243, 247, 0.4);
+
+    box-shadow: 0px 5px 5px rgb(66, 66, 66); 
+    transition: all 300ms ease;
+}
+.card-caso:hover{
+    box-shadow: 0px 1px 10px #7e7e7e;
+    background-color:#00408c;
+    transition: all 300ms ease;
+    cursor: pointer;
+}
+.card-caso-header{
+    padding: 10px;
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+.card-caso img{
+    width: 100%;
+    height: 82%;
+}
+.bxcasosclinicos{
+    display: none;
+}
+#Casos .bx-wrapper{
+    display: none;
+}
+
+
+/*INFRAESTRUCTURA*/
+
+#Infraestructura{
+    height: 680px;
+}
+#infraestructura > img{
+    width: 90%;
+    height: 680px;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.3;
+}
+.infraes{
+    width: 100%;
+    height: 660px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card-infra{
+    margin: 0 auto;
+    margin-top: 10px;
+    height: 310px;
+    background-color: rgba(242, 243, 247, 0.4);
+    box-shadow: 0px 5px 5px rgba(66, 66, 66,0.5); 
+    transition: all 300ms ease;
+    color: #00408c;
+    width: 28%;
+}
+.card-infra:hover{
+    box-shadow: 0px 1px 10px #7e7e7e;
+    background-color:#00408c;
+    transition: all 300ms ease;
+    cursor: pointer;
+    color: white;
+}
+.card-infra-header{
+    padding: 15px;
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+.card-infra img{
+    width: 100%;
+    height: 86%;
+}
+    #Infraestructura .bx-wrapper{
+    max-width: 70% !important;
+    margin: 0px auto;
+    height: 600px;
+    display: none;
+}
+#Infraestructura .bx-viewport{
+    height: 600px;
+    width: 90% !important;
+    margin: auto;
+}
+
+.infraes11{
+    display: none;
+}
+
+
+
+
+
+#footer{
+    width: 100%;
+    height: 415px;
+    background: white;
+    color: white;
+    overflow: hidden;
+}
+#footer .wrap > div{
+    float:left;
+    width: 30%;
+    margin: 20px;
+    text-align: center;
+    color:white;
+    font-family: 'Trebuchet MS';
+}
+#footer a{
+    text-decoration: none;
+    color: #003f8c;
+    transition: all 300ms;
+}
+#footer a:hover{
+    color: rgba(7, 194, 182, 1)
+}
+
+#footer h5{
+    display: block;
+    background: url("../img/pxgray.png"), white;
+    height: 35px;
+    letter-spacing: 2px;
+    text-align: center;
+    font-family: "BebasNeue";
+    font-size: 20px;
+    line-height: 40px;
+    color: black;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+#footer ul{
+    text-align: left;
+    margin: 10px;
+    font-size: 20px;
+}
+#footer ul li{
+    margin-top: 5px;
+    padding: 0px;
+    border-bottom: 1px solid #cccccc;
+}
+#footer ul li a{
+    display:block;
+    height: 40px;
+}
+#footer iframe{
+    width: 100%;
+    height: 300px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 5px solid #cccccc;
+    box-shadow: 0px 0px 5px gray;
+}
+
+.facebook, .youtube{
+    font-size: 70px;
+    padding: 10px;
+}
+.facebook{
+    color: #003f8c !important;
+}
+.youtube{
+    color: #f00 !important;
+}
+#contactos{
+    display: none;
+}
+
+
+
+
+/*MODAALS*/
+
+
+
+.card-caso a, .card-infra a{
+    text-decoration: none;
+    color: #003f8c !important;
+}
+.card-caso a:hover, .card-infra a:hover{
+    color: white !important;
+}
+
+.modal{
+    position: fixed;
+    top: -100vh;
+    left: 0%;
+    z-index: 9999999999;
+    background: rgba(0, 0, 0, 0.85);
+    width: 100vw;
+    height: 100vh;
+    opacity: 0;
+    transition: opacity 0.35s ease;
+}
+.modal .content-modal{
+    width: 50%;
+    position:fixed;
+    left: 25%;
+    top: -100vh;
+    transition: top 0.35s ease;
+    background: rgba(58, 95, 139, 0.4);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+    z-index: 9999999999;
+}
+.modal h3{
+    font-size: 17px;
+    padding: 1.0em;
+    text-align: center;
+    color: white;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+.content-modal header{
+    border-bottom: 2px solid black;
+}
+.modal article{
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.modal article img{
+    padding: 1em;
+    width: 90%;
+}
+.close-modal{
+    color:#fff;
+    position: absolute;
+    top: 0.3em;
+    right: 0.375em;
+    margin: 0%;
+    padding: 5px;
+    font-weight: bold;
+    font-size:1.5em;
+    text-decoration: none;
+}
+.modal a:hover{
+    color: #00408c;
+
+}
+.modal:target{
+    opacity: 1;
+    top:0;
+
+}
+.modal .btn-close-modal{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99999991;
+}
+.modal:target .content-modal{
+    top: 50px;
+    transition: top 0.35s ease;
+}
+
+@media(max-width:796px){
+    .modal .content-modal{
+        width: 90%;
+        max-width: none;
+        left: 5%;
+        margin-left: 0%;
+    }
+
+}
